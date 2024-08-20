@@ -1,0 +1,468 @@
+/* Основная часть*/
+.clearfix {
+    clear: both;
+}
+
+.fuel-cards {
+    width: 1076px;
+    /* height: 595px; */
+    margin: 75px auto 30px auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    background: linear-gradient(to left, #d0330d, #fd653f);
+    border-radius: 8px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.cards-image {
+    width: 40%;
+    position: relative;
+}
+
+.cards-image img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.fc-text {
+    color: white;
+    width: 60%;
+    padding: 40px 74px;
+    box-sizing: border-box;
+}
+
+.fc-h {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57px;
+    margin-bottom: 14px;
+}
+
+.fc-contr {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 8px;
+    margin-bottom: 45px;
+}
+
+.fc-conv {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.fc-text img {
+    margin-left: 8px;
+}
+
+.allsheet {
+    display: flex;
+    margin: 0 auto;
+    width: 1076px;
+}
+
+.asfstcol {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bonuscards,
+.lgwholesale {
+    background-color: #ff7c5c;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bonusfstcol {
+    width: 50%;
+    margin: 33px 0 39px 39px;
+}
+
+.bonuscards .fsttext {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.bonuscards .sectext {
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 126px;
+}
+
+.bonuscards .thrtext {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.bonusseccol,
+.whsaleseccol {
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bonusseccol img,
+.whsaleseccol img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.wholesale {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.whsfstcol {
+    width: 65%;
+    background: linear-gradient(to bottom left, #652aff, #5616f8, #7a46ff);
+    border-radius: 8px;
+}
+
+.whsseccol {
+    background: linear-gradient(to top right, #652aff, #5616f8, #7a46ff);
+    width: 33%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.whsfstcol .fsttext {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.whsfstcol .sectext,
+.whsseccol .sectext {
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.whsfstcol .thrtext,
+.whsseccol .thrtext {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-top: 27px;
+}
+
+.whsfstcol .fsttext,
+.whsfstcol .sectext,
+.whsfstcol .thrtext {
+    margin-left: 30px;
+}
+
+.whsfstcol img {
+    margin-top: 17px;
+}
+
+.canister,
+.mapseccol {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: stretch;
+    flex-grow: 1;
+}
+
+.whsseccol .sectext,
+.whsseccol .thrtext {
+    margin-left: 30px;
+}
+
+.whsseccol .sectext {
+    margin-top: 50px;
+}
+
+.ourfuel {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.open_modal {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#modal_map {
+    width: 77%;
+    height: 700px;
+    margin-right: 2px;
+}
+
+.ourfuelsts {
+    width: 23%;
+    padding: 20px;
+    background-color: white;
+}
+
+.findfscap {
+    font-weight: 900;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+
+.findwin {
+    position: relative;
+    margin: 0 0 15px;
+}
+
+.findwin input {
+    border: 1px solid black;
+    /* padding: 0 32px 0 5px; */
+    font-size: 12px;
+    height: 30px;
+    width: 100%;
+    outline: 0 none;
+    display: block;
+}
+
+.search_btn {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+    padding: 0;
+    width: 26px;
+    height: 20px;
+    border: 0;
+    background: none;
+    text-align: center;
+    background: url('../images/find.png') no-repeat right;
+    cursor: pointer;
+}
+
+#fsList {
+    position: relative;
+    overflow: auto;
+    height: 500px;
+}
+
+.fsListItem {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-bottom: #4c4c4c 1px dotted;
+    cursor: pointer;
+}
+
+.search_btn:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 0;
+    border-left: 1px solid #db2b36;
+}
+
+.farfs {
+    font-weight: 600;
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    line-height: 18px;
+    margin: 0 0 15px;
+    text-align: center;
+
+}
+
+.fsDescr01 {
+    background-color: #EEEDED;
+    border-radius: 8px;
+}
+
+.fuelTypes {
+    padding: 14px 15px 14px 15px;
+
+}
+
+.fuelCap {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.fuelName {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.fuelName div {
+    flex-grow: 1;
+}
+
+.a9201,
+.a9501,
+.df01,
+.gas01 {
+    text-align: center;
+}
+
+.pecul {
+    display: flex;
+}
+
+.pecul div {
+    margin: 5px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.fuelprice>a {
+    padding-left: 25px;
+    background-image: url('../images/mapico.png');
+    background-repeat: no-repeat;
+}
+
+.ga9592,
+.df,
+.gas {
+    display: flex;
+}
+
+.prfstcol {
+    width: 50%;
+}
+
+.moredetails {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #bbb;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.asseccol {
+    width: 30%;
+    margin-left: 30px;
+    height: fit-content;
+}
+
+.fuelprice {
+    padding: 30px;
+    height: fit-content;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.ga9592,
+.df {
+    border-bottom: 1px solid #ccc;
+}
+
+.ftype {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #ea0000;
+    margin-bottom: 50px;
+    margin-top: 21px;
+}
+
+.prseccol {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4c4c4c;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.df .ftype {
+    color: #000;
+}
+
+.gas .ftype {
+    color: #001eb9;
+}
+
+.concrpr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 80px;
+    margin-left: 11px;
+}
+
+.vacancy {
+    border-radius: 8px;
+    background-image: url("../images/vacancy.png");
+    height: 247px;
+    background-position-y: bottom;
+}
+
+.weonmap {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.mapfstcol {
+    display: flex;
+    width: 60%;
+}
+
+.mapseccol {
+    width: 40%;
+}
+
+.gsmaptext {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    width: 70%;
+    justify-content: end;
+}
+
+.gsmaparr {
+    width: 30%;
+    justify-content: center;
+}
+
+.gsmaptext,
+.gsmaparr {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}

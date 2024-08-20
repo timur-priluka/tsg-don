@@ -1,0 +1,81 @@
+.fuel-cards {
+  width: 1076px;
+  margin: 75px auto 38px auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  /* margin-top: 30px; */
+}
+
+.fc-text {
+  color: #fff;
+  width: 69%;
+  box-sizing: border-box;
+  padding-left: 65px;
+}
+
+.fc-h {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  margin-top: 55px;
+  margin-bottom: 10px;
+  color: #363636;
+}
+
+.cards-image {
+  position: relative;
+  width: 31%;
+}
+
+.cards-image img {
+  display: block;
+}
+
+.coll-blk {
+  width: 1076px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+.coll-title {
+  width: 100%;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#coll-text01,
+#coll-text02 {
+  display: none;
+  width: 1004px;
+}
+
+/* .coll-blk:active .coll-text {
+  display: block;
+} */
+
+ol {
+  counter-reset: item;
+  padding-left: 0;
+}
+
+ol>li {
+  display: block;
+  padding-left: 0;
+}
+
+ol>li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+}

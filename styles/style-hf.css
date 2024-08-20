@@ -1,0 +1,101 @@
+.clear {
+    clear: both;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'SF Pro Display';
+}
+
+/* ШАПКА*/
+
+.head {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 15px 37px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo-blk {
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 147px;
+    background-size: contain;
+    margin-right: 37px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.top-menu {
+    display: flex;
+    line-height: 19px;
+}
+
+ul.nav {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+ul.nav li {
+    margin: 9px 10px;
+    width: 130px;
+}
+
+.privCab {
+    margin-left: 37px;
+    padding: 26px 0;
+    text-decoration: underline;
+}
+
+
+/* Подвальчик*/
+
+.footer {
+    display: flex;
+    background-color: #EEE;
+    margin-top: 30px;
+}
+
+.footcol {
+    width: 33%;
+    display: flex;
+}
+
+.footcol ul {
+    list-style-type: none;
+}
+
+.footcol ul {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    /* text-align: center; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: center;
+    /* align-content: stretch; */
+    flex-grow: 1;
+}
+
+.footcol ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}

@@ -1,0 +1,140 @@
+body {
+  background-color: #f8f8f8;
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  /* width: 1440px; */
+  margin: 0 auto;
+  font-family: "SF Pro Display";
+}
+
+/* ШАПКА*/
+
+.head {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 15px 0px;
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 16px;
+  font-weight: 700;
+  background-color: white;
+  width: 100%;
+}
+
+.logo-blk {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 147px;
+  background-size: contain;
+  margin-right: 375px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: calc((100% - 1076px) / 2);
+}
+
+.logo-blk a {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+.top-menu {
+  display: flex;
+  line-height: 19px;
+}
+
+ul.nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+ul.nav>li {
+  margin: 9px 10px;
+  /* width: 130px; */
+}
+
+ul.nav li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px rgb(233, 233, 233) solid;
+  padding: 9px 20px;
+  z-index: 1;
+  list-style-type: none;
+}
+
+ul.nav li ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 41px;
+  width: 100%;
+}
+
+ul.nav li:hover>ul {
+  display: inherit;
+}
+
+.with_und {
+  border-bottom: gray dotted 1px;
+  margin: 0;
+}
+
+.privCab {
+  margin-left: 37px;
+  padding: 26px 0;
+  text-decoration: underline;
+}
+
+/* Подвальчик*/
+
+.footer {
+  display: flex;
+  background-color: #eee;
+  margin-top: 30px;
+}
+
+.footcol {
+  width: 33%;
+  display: flex;
+}
+
+.footcol ul {
+  list-style-type: none;
+}
+
+.footcol ul {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  /* text-align: center; */
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  align-items: center;
+  /* align-content: stretch; */
+  flex-grow: 1;
+}
+
+.footcol ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
